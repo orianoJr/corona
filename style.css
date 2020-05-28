@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(44, 44, 168);
+    text-align: center;
+    color: white;
+}
+div#corpo{
+    color: black;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    width: auto;
+    padding: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+}
