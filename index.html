@@ -1,13 +1,19 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Escolha o pais</h1>
+        <h1>Numero de casos de corona virus pelo mundo</h1>
         <div id="corpo">
-        <select name="opção" id="valor" class="opcao"></select>
-        <input type="button" value="ver o numero de casos" onclick="mostrar()">
+            <div class="alinhamento">
+        <select name="opção" id="valor" class="opcao">
+        <option value="0">Escolha o pais</option>
+        </select>
+        <input type="button" value="🔍" onclick="mostrar()">
+    </div>
         <div id="resp"></div>
         </div>
         <footer>

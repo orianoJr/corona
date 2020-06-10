@@ -2,14 +2,37 @@ body {
     background-color: rgb(44, 44, 168);
     text-align: center;
     color: white;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    margin-top: 50px;
+    font-size: 40px;
 }
 div#corpo{
     color: black;
     background-color: white;
     box-shadow: 2px 2px 5px black;
     width: auto;
+    max-width: 1100px;
+    height: auto;
+    margin: 10%;
+    border-radius: 10px;
     padding: 100px;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-top: 100px;
+}
+.alinhamento{
+    display: flex;
+    justify-content: center;
+}
+select{
+    outline: none;
+    border-radius: 80px 0 0 80px;
+}
+input{
+    border-radius: 0 80px 80px 0;
+    outline: none;
+    border-style: none;
+    border: 1px solid;
+}
+input:hover{
+    background-color: rgb(128, 128, 128);
 }
